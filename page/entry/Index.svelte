@@ -1,7 +1,7 @@
 <script>
 import { onMount } from "svelte";
 import { goto, nowUrl } from "_/route.js";
-import delayRoute from "_/delayRoute.js";
+import { delayRoute } from "_/delayRoute.js";
 import coms from "../../gen/com.js";
 import Md from "../lib/Md.svelte";
 import Aside from "../Index/Aside.svelte";

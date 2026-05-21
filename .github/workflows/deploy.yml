@@ -29,7 +29,14 @@ jobs:
         run: bun install
 
       - name: Build
-        run: NODE_ENV=production ./build.sh
+        run: |
+          NODE_ENV=production ./build.sh
+          if [ -f dist/Index.html ]; then
+            cp dist/Index.html dist/index.html
+          fi
+          if [ -f dist/.gitignore ]; then
+            rm dist/.gitignore
+          fi
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4

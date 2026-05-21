@@ -11,12 +11,3 @@ if command -v mise &> /dev/null; then
 else
   bun x vite build $@
 fi
-
-if [ -f dist/Index.html ]; then
-  cp dist/Index.html dist/index.html
-fi
-
-if [ -f dist/.gitignore ]; then
-  rm dist/.gitignore
-fi
-

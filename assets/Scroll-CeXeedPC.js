@@ -1,5 +1,5 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./Demo-iz1ry_5e.js","./init-DMqhykfX.js","./init-ClQSGNbl.css","./Index-B79upDbv.js","./legacy-D-xcaJ-t.js"])))=>i.map(i=>d[i]);
-import{t as e}from"./Index-B79upDbv.js";var t=[`平滑流畅的自定义虚拟滚动条
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./Demo-C3kT1Q7t.js","./init-DMqhykfX.js","./init-ClQSGNbl.css","./Index-j-_esVTK.js","./legacy-DQ6vta3t.js"])))=>i.map(i=>d[i]);
+import{t as e}from"./Index-j-_esVTK.js";var t=[`平滑流畅的自定义虚拟滚动条
 
 ## 功能
 
@@ -49,4 +49,4 @@ v-scroll
   border 1px solid #0000000f
 </style>
 \`\`\`
-`,()=>e(()=>import(`./Demo-iz1ry_5e.js`),__vite__mapDeps([0,1,2,3,4]),import.meta.url)];export{t as default};
+`,()=>e(()=>import(`./Demo-C3kT1Q7t.js`),__vite__mapDeps([0,1,2,3,4]),import.meta.url)];export{t as default};

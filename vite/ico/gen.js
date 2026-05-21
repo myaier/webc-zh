@@ -49,7 +49,10 @@ const DIR = import.meta.dirname,
     await mkdir(DIST, { recursive: true });
 
     for (const [name, data] of Object.entries(res_files)) {
-      await writeFile(join(DIST, name), new Uint8Array(data));
+      await writeFile(
+        join(DIST, name),
+        typeof data === "string" ? data : new Uint8Array(data)
+      );
     }
   };
 

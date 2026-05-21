@@ -1,0 +1,6 @@
+node_modules/
+/conf/
+/gen/
+/dist/
+*.tar.bz2
+bun.lock

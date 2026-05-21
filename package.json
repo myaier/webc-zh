@@ -1,0 +1,48 @@
+{
+  "name": "vibe",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "oxc-parser": "^0.132.0",
+    "streaming-markdown": "^0.2.15"
+  },
+  "devDependencies": {
+    "@3-/css2nest": "^0.1.8",
+    "@3-/extract": "^0.1.8",
+    "@3-/read": "^0.1.4",
+    "@3-/write": "^0.0.2",
+    "@minify-html/node": "^0.18.1",
+    "@realfavicongenerator/generate-favicon": "^0.8.3",
+    "@realfavicongenerator/image-adapter-node": "^0.8.3",
+    "@sveltejs/vite-plugin-svelte": "^7",
+    "fmt_svelte": "^0.1.12",
+    "husky": "^9.1.7",
+    "lightningcss": "^1.32.0",
+    "lint-staged": "^17.0.5",
+    "oxfmt": "^0.51.0",
+    "oxlint": "^1.66.0",
+    "pug": "^3",
+    "stylus": "^0.64.0",
+    "stylus-supremacy": "^5.0.2",
+    "svelte": "^5",
+    "svgo": "^4.0.1",
+    "vite": "^8",
+    "yargs": "^18.0.0",
+    "zx": "^8.8.5"
+  },
+  "lint-staged": {
+    "**/*.svg": "sh/hook/svgMinify.js",
+    "**/*.svelte": [
+      "sh/hook/fmtSvelte.sh",
+      "sh/hook/svelteSvgMinify.js"
+    ],
+    "**/*.styl": "sh/hook/fmtStyl.sh"
+  }
+}

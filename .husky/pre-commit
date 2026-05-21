@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+bun x lint-staged
+
+if [ -z "$S" ]; then
+  git add -u
+fi

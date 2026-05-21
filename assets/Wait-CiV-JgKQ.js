@@ -1,5 +1,5 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/Demo-BmoAarm-.js","assets/Index-dzVa0X89.js","assets/init-OvzoiGE4.js","assets/init-ClQSGNbl.css","assets/legacy-CXaQko0V.js"])))=>i.map(i=>d[i]);
-import{t as e}from"./Index-dzVa0X89.js";var t=[`优雅的加载动画与表单提交遮罩
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/Demo-DGLBmybU.js","assets/Index-CnYk-2-K.js","assets/init-DMqhykfX.js","assets/init-ClQSGNbl.css","assets/legacy-BtoPfwpq.js"])))=>i.map(i=>d[i]);
+import{t as e}from"./Index-CnYk-2-K.js";var t=[`优雅的加载动画与表单提交遮罩
 
 ## 功能
 
@@ -23,4 +23,4 @@ form.ing
 @import "com/Wait/Wait.styl"
 </style>
 \`\`\`
-`,()=>e(()=>import(`./Demo-BmoAarm-.js`),__vite__mapDeps([0,1,2,3,4]))];export{t as default};
+`,()=>e(()=>import(`./Demo-DGLBmybU.js`),__vite__mapDeps([0,1,2,3,4]))];export{t as default};

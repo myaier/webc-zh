@@ -1,0 +1,1 @@
+import{m as e}from"./Index-CnYk-2-K.js";e();
